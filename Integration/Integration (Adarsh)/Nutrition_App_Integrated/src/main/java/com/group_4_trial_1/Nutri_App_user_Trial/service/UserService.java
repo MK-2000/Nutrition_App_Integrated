@@ -3,16 +3,16 @@ package com.group_4_trial_1.Nutri_App_user_Trial.service;
 import com.group_4_trial_1.Nutri_App_user_Trial.entity.Status;
 import com.group_4_trial_1.Nutri_App_user_Trial.entity.User;
 import com.group_4_trial_1.Nutri_App_user_Trial.exception.UserApiRequestException;
+import com.group_4_trial_1.Nutri_App_user_Trial.repository.UserRepository;
+import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.group_4_trial_1.Nutri_App_user_Trial.repository.UserRepository;
 
 import javax.transaction.Transactional;
 import java.sql.Time;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
-import java.util.logging.Logger;
 
 @Service
 public class UserService {

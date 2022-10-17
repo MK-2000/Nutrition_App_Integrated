@@ -6019,3 +6019,28 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation "user_table" does 
 2022-10-17 19:38:05.818  INFO 5864 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
 2022-10-17 19:38:05.850  INFO 5864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-10-17 19:38:05.853  INFO 5864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-17 22:30:10.193  INFO 19708 --- [main] c.g.N.NutritionApplication               : Starting NutritionApplication using Java 17.0.2 on Samael with PID 19708 (D:\Capgemini Training\Sprint_1 Project\LocalRepository\Integration\Integration (Adarsh)\Nutrition_App_Integrated\target\classes started by Pratik in D:\Capgemini Training\Sprint_1 Project\LocalRepository\Integration\Integration (Adarsh)\Nutrition_App_Integrated)
+2022-10-17 22:30:10.197  INFO 19708 --- [main] c.g.N.NutritionApplication               : No active profile set, falling back to 1 default profile: "default"
+2022-10-17 22:30:11.219  INFO 19708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-17 22:30:11.308  INFO 19708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 3 JPA repository interfaces.
+2022-10-17 22:30:12.234  INFO 19708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8020 (http)
+2022-10-17 22:30:12.244  INFO 19708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-17 22:30:12.245  INFO 19708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-17 22:30:12.364  INFO 19708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-17 22:30:12.365  INFO 19708 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2100 ms
+2022-10-17 22:30:12.714  INFO 19708 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-17 22:30:12.779  INFO 19708 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-17 22:30:12.997  INFO 19708 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-17 22:30:13.130  INFO 19708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-17 22:30:13.352  INFO 19708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-17 22:30:13.372  INFO 19708 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-17 22:30:13.984  INFO 19708 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.group_4_trial_1.Nutri_App_user_Trial.entity.User (class must be instantiated by Interceptor)
+2022-10-17 22:30:14.596  INFO 19708 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-17 22:30:14.604  INFO 19708 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-17 22:30:15.309  INFO 19708 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation should only be used on methods with parameters: public java.util.List com.group_4_trial_1.Nutri_App_user_Trial.service.NutritionPlanService.getNutritionPlans()
+2022-10-17 22:30:16.757  INFO 19708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8020 (http) with context path ''
+2022-10-17 22:30:16.775  INFO 19708 --- [main] c.g.N.NutritionApplication               : Started NutritionApplication in 7.123 seconds (JVM running for 7.715)
+2022-10-17 22:36:06.211  INFO 19708 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-17 22:36:06.212  INFO 19708 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-10-17 22:36:06.251  INFO 19708 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-17 22:36:06.261  INFO 19708 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

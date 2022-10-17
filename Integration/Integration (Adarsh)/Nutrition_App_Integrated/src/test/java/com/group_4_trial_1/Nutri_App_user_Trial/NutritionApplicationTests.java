@@ -17,7 +17,7 @@ import java.util.stream.Stream;
 
 import static java.time.Month.JANUARY;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.when;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -34,7 +34,7 @@ class NutritionApplicationTests {
 
 	@Test
 	public void getAllUsersTest() {
-		when(userRepository.findAll()).thenReturn(Stream
+		when(userRepository.findAll()).thenReturn( Stream
 				.of(new User(
                     "mariam007",
                 "Mariam",
