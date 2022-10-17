@@ -54,6 +54,9 @@ public class User {
     @JoinColumn(name = "nutrition_plan_id")
     private NutritionPlan nutritionPlan;
 
+    public User() {
+    }
+
     public User(long l, String mariam007, String mariam, String gender, String female, LocalDate of) {
     }
 
