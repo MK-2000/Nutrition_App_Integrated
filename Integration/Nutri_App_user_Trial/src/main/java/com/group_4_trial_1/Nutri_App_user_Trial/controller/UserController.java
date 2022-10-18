@@ -47,7 +47,7 @@ public class UserController {
             @RequestParam(required = false) String contact,
             @RequestParam(required = false) String email,
             @RequestParam(required = false) String gender,
-            @RequestParam(required = false) Status status,
+            @RequestParam(required = false) String status,
             @RequestParam(required = false) Float weight,
             @RequestParam(required = false) Float height,
             @RequestParam(required = false) String goal,

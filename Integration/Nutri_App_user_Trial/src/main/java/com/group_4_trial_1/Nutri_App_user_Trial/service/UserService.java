@@ -67,7 +67,7 @@ public class UserService {
     }
 
     @Transactional
-    public void updateUser(Long id, String name, String contact, String email, String gender, Status status, Float weight,
+    public void updateUser(Long id, String name, String contact, String email, String gender, String status, Float weight,
                            Float height, String goal, Time wakeUpTime, Time sleepTime)
     {
         System.out.println(status);

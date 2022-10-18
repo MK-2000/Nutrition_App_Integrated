@@ -29,10 +29,10 @@ public class User {
     //    private Image photo;
     private String email;
     private String role;
-    @Enumerated(EnumType.STRING)
+//    @Enumerated(EnumType.STRING)
 //    @Column(columnDefinition = "varchar(255) default 'INACTIVE'")
 //    @Type( type = "pgsql_enum" )
-    private Status status;
+    private String status;
     private float weight;
     private float height;
     private String dietaryOrientation;
@@ -75,7 +75,7 @@ public class User {
 
     public User(Long id, String userId, String name, String contact,
                 String gender, LocalDate dob, String email, String role,
-                Status status, float weight, float height, String dietaryOrientation,
+                String status, float weight, float height, String dietaryOrientation,
                 String intensity, String goal, String workOutline, Time wakeUpTime, Time sleepTime,
                 String medicalCondition, String allergicTo, String loginName, String password) {
         this.id = id;
@@ -180,11 +180,11 @@ public class User {
         this.role = role;
     }
 
-    public Status getStatus() {
+    public String getStatus() {
         return status;
     }
 
-    public void setStatus(Status status) {
+    public void setStatus(String status) {
         this.status = status;
     }
 

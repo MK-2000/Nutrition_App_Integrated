@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.yaml.snakeyaml.events.Event;
 
 import java.time.LocalDate;
 import java.util.Optional;
@@ -17,7 +18,7 @@ import java.util.stream.Stream;
 
 import static java.time.Month.JANUARY;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -77,9 +78,15 @@ class NutritionApplicationTests {
 
 //	@Test
 //	public void deleteUserTest() {
-//		Long id = 1L;
-//		userService.deleteUser(id);
-//		verify(userRepository, times(0)).deleteById(id);
+//		User user = new User(
+//				1L,
+//				"mariam007",
+//				"Mariam",
+//				"9564525874",
+//				"Female",
+//				LocalDate.of(1999, JANUARY, 1));
+//		userService.deleteUser(user.getId());
+//		verify(userRepository, times(1)).deleteById(user.getId());
 //	}
 
 }
