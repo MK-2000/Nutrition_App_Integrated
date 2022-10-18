@@ -1,0 +1,10 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°ß‹–üÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š¡ëá
+]
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(‰‰¥Þ8éè¸…¾0
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(Œ±µñüÿÿÿÿ
+b
+java:S46841"@Replace this persistent entity with a simple POJO or DTO object.(ò’»øþÿÿÿÿ8ïè¸…¾0
+V	java:S125-"<This block of commented-out lines of code should be removed.(ÿ°­Îþÿÿÿÿ
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(Ú¨îœ
