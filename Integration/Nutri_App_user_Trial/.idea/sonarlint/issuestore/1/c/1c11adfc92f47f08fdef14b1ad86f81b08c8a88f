@@ -1,0 +1,4 @@
+
+W	java:S107I"BConstructor has 21 parameters, which is greater than 7 authorized.(ÜüÑª
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³›ãÍ
+V	java:S125"<This block of commented-out lines of code should be removed.(ø“ÖÂùÿÿÿÿ
